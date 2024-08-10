@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Cat Website</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive;
+            background-color: #fffbf0;
+            text-align: center;
+        }
+        h1 {
+            color: #ff6b6b;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .cat-image {
+            max-width: 60%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .cat-image:hover {
+            transform: scale(1.1);
+        }
+
+        .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0; 
+        }
+
+        .image-container:hover .overlay-text {
+        opacity: 1; 
+        }
+
+}
+    </style>
+</head>
+<body>
+
+    <h1>🐾 I Love Cats! 🐾</h1>  
+
+     <p>
+        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+    </p>
+
+<a href="https://i.gifer.com/UAsu.gif">
+    <div class="image-container">
+    <img class="cat-image" src="https://i.pinimg.com/originals/88/62/c8/8862c88a401ee752daac78e6499f00d5.jpg" alt="Click me to play the video">
+    <div class="overlay-text">Pet me, please!</div>
+    </div>
+</a>
+    <p>
+        &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+    </p>
+    <p>Check out this adorable kitty!</p>
+
+</body>
+</html>
